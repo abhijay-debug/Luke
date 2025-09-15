@@ -1,0 +1,6 @@
+@import "tailwindcss";
+
+/* index.css */
+.hero-gradient {
+  background: linear-gradient(135deg, #ffe080 0%, #feb956 35%, #8ccf52 100%);
+}
