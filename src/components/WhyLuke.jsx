@@ -31,7 +31,7 @@ export default function WhyNow() {
   ];
 
   return (
-    <section id="why-now" className="py-14 bg-gray-50">
+    <section id="why-now" className="py-14 ">
       <div className="max-w-6xl mx-auto px-6">
         {/* Heading */}
         <h2 className="text-3xl font-bold text-gray-800 text-center mb-6">

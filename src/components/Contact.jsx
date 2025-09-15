@@ -6,7 +6,7 @@ export default function Contact() {
   return (
     <section
       id="contact"
-      className="py-20 bg-white  text-center"
+      className="lg:py-20 py-10  bg-white  text-center"
     >
       <div className="max-w-4xl mx-auto px-6">
         {/* Heading */}

@@ -13,7 +13,7 @@ export default function WellnessContext() {
 
         <div className="grid md:grid-cols-3 gap-8">
           {/* Point 1 */}
-          <div className="bg-white p-6 rounded-xl shadow hover:shadow-lg transition">
+          <div className="bg-white p-6 flex flex-col items-center text-center rounded-xl shadow hover:shadow-lg transition">
             <Clock className="w-10 h-10 text-teal-800 mb-4" />
             <h3 className="text-xl font-semibold mb-2">24×7 Availability</h3>
             <p className="text-gray-600">
@@ -23,7 +23,7 @@ export default function WellnessContext() {
           </div>
 
           {/* Point 2 */}
-          <div className="bg-white p-6 rounded-xl shadow hover:shadow-lg transition">
+          <div className="bg-white p-6 flex flex-col items-center text-center rounded-xl shadow hover:shadow-lg transition">
             <Brain className="w-10 h-10 text-teal-800 mb-4" />
             <h3 className="text-xl font-semibold mb-2">Personalization at Scale</h3>
             <p className="text-gray-600">
@@ -33,7 +33,7 @@ export default function WellnessContext() {
           </div>
 
           {/* Point 3 */}
-          <div className="bg-white p-6 rounded-xl shadow hover:shadow-lg transition">
+          <div className="bg-white p-6 flex flex-col items-center text-center rounded-xl shadow hover:shadow-lg transition">
             <TrendingUp className="w-10 h-10 text-teal-800 mb-4" />
             <h3 className="text-xl font-semibold mb-2">Rising Standard</h3>
             <p className="text-gray-600">
@@ -55,7 +55,7 @@ export default function WellnessContext() {
 
         <div className="grid md:grid-cols-3 gap-8">
           {/* Audience 1 */}
-          <div className="bg-white p-6 rounded-xl shadow hover:shadow-lg transition flex flex-col items-center text-center">
+          <div className="bg-white  p-6 rounded-xl shadow hover:shadow-lg transition flex flex-col items-center text-center">
             <Heart className="w-10 h-10 text-teal-800 mb-4" />
             <h3 className="text-lg font-semibold">Wellness Seekers</h3>
             <p className="text-gray-600">

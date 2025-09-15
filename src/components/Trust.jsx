@@ -7,19 +7,19 @@ import { BookOpen, Heart, Brain } from "lucide-react";
 export default function Trust() {
   const reasons = [
     {
-      icon: <BookOpen className="w-8 h-8 text-teal-800" />,
+      icon: <BookOpen className="w-10 h-10 text-teal-800" />,
       title: "Built on Luke’s Body of Work",
       description:
         "Multi-pillar manifesto and science pages outline his six-pillar method. Books like The Calm Prescription and Small Wins Every Day codify practical, habit-first change.",
     },
     {
-      icon: <Heart className="w-8 h-8 text-teal-800" />,
+      icon: <Heart className="w-10 h-10 text-teal-800" />,
       title: "Holistic, Not Faddish",
       description:
         "Programs emphasize root-cause lifestyle change, not quick fixes. The focus is sustainable well-being, not passing trends.",
     },
     {
-      icon: <Brain className="w-8 h-8 text-teal-800" />,
+      icon: <Brain className="w-10 h-10 text-teal-800" />,
       title: "Evidence-Aligned",
       description:
         "AI coaching and chatbots show promising outcomes in behavior change. Accessibility and on-demand support in healthcare settings (including WhatsApp) strengthen effectiveness.",
@@ -40,11 +40,11 @@ export default function Trust() {
           {reasons.map((reason, idx) => (
             <div
               key={idx}
-              className="bg-white rounded-2xl shadow-md hover:shadow-xl transition p-6 text-left flex flex-col items-start"
+              className="bg-white  rounded-2xl shadow-md hover:shadow-xl transition p-6 text-left flex flex-col items-center"
             >
               <div className="mb-4">{reason.icon}</div>
               <h3 className="text-xl font-semibold text-gray-800 mb-2">{reason.title}</h3>
-              <p className="text-gray-600">{reason.description}</p>
+              <p className="text-gray-600 text-center">{reason.description}</p>
             </div>
           ))}
         </div>

@@ -4,11 +4,55 @@ import { BookOpen, Heart, Leaf } from "lucide-react";
 
 export default function AboutLuke() {
   return (
-    <section id="about" className="lg:py-16 py-8 bg-gradient-to-b from-green-50 to-white">
+    <section id="about" className="py-10   bg-gradient-to-b from-green-50 to-white">
       <div className="max-w-5xl mx-auto px-6 text-center">
         {/* Heading */}
-        <h2 className="text-3xl font-bold text-gray-800 mb-8">About Luke</h2>
-
+        <h2 className="font-dragon text-5xl font-bold mt mb-14 text-teal-800 
+               tracking-widest drop-shadow-lg ">
+  About Luke
+</h2>
+             <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4 mb-10">
+          <img
+            src="/images/seven.jpg"
+            alt="Gallery 1"
+            className="w-full h-48 object-cover rounded-xl shadow"
+          />
+          <img
+            src="/images/eight.jpg"
+            alt="Gallery 2"
+            className="w-full h-48 object-cover rounded-xl shadow"
+          />
+          <img
+            src="/images/nine.jpg"
+            alt="Gallery 3"
+            className="w-full h-48 object-cover rounded-xl shadow"
+          />
+          <img
+            src="/images/ten.jpg"
+            alt="Gallery 4"
+            className="w-full h-48 object-cover rounded-xl shadow"
+          />
+          <img
+            src="/images/eleven.jpg"
+            alt="Gallery 5"
+            className="w-full h-48 object-cover rounded-xl shadow"
+          />
+          <img
+            src="/images/twelve.jpg"
+            alt="Gallery 6"
+            className="w-full h-48 object-cover rounded-xl shadow"
+          />
+          <img
+            src="/images/six.jpg"
+            alt="Gallery 7"
+            className="w-full h-48 object-cover rounded-xl shadow"
+          />
+          <img
+            src="/images/one.jpg"
+            alt="Gallery 8"
+            className="w-full h-48 object-cover rounded-xl shadow"
+          />
+        </div>
         {/* Content Card */}
         <div className="bg-white shadow-md rounded-2xl p-8 md:p-12 relative">
           {/* Decorative Icons */}

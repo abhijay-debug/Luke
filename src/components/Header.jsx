@@ -5,7 +5,7 @@ export default function Header() {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <header className="hero-gradient text-white sti top-0 z-50">
+    <header className="bg-teal-800 text-white lg:stick top-0 z-50">
       <nav className="max-w-6xl mx-auto flex justify-between items-center py-6 px-6">
         {/* Logo */}
         <div className="font-bold text-2xl">Luke AI</div>
@@ -13,10 +13,11 @@ export default function Header() {
         {/* Desktop Menu */}
         <ul className="hidden md:flex gap-6 text-md font-medium">
           <li><a href="#features" className="hover:text-gray-200">Features</a></li>
-          <li><a href="#why" className="hover:text-gray-200">Why Luke AI</a></li>
+          
           <li><a href="#works" className="hover:text-gray-200">How It Works</a></li>
           <li><a href="#faq" className="hover:text-gray-200">FAQ</a></li>   
           <li><a href="#feel" className="hover:text-gray-200">Benifits</a></li>
+          <li><a href="#about" className="hover:text-gray-200">About Luke</a></li>
           
           <li><a href="#contact" className="hover:text-gray-200">Contact</a></li>
         </ul>
@@ -52,7 +53,7 @@ export default function Header() {
             {/* Menu Items */}
             <ul className="flex flex-col gap-6 text-lg font-medium">
               <li><a href="#features" onClick={() => setIsOpen(false)}>Features</a></li>
-              <li><a href="#why" onClick={() => setIsOpen(false)}>Why Luke AI</a></li>
+              <li><a href="#about" onClick={() => setIsOpen(false)}>About Luke</a></li>
               <li><a href="#works" onClick={() => setIsOpen(false)}>How It Works</a></li>
               <li><a href="#feel" onClick={() => setIsOpen(false)}>Benefits</a></li>
               <li><a href="#faq" onClick={() => setIsOpen(false)}>FAQ</a></li>

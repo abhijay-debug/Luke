@@ -9,7 +9,7 @@ const faqs = [
 
 export default function FAQ() {
   return (
-    <section id="faq" className="lg:py-1 py-10 max-w-6xl mx-auto px-6">
+    <section id="faq" className="lg:py-1 py-10 lg:mb-10 max-w-6xl mx-auto px-6">
       <h2 className="text-3xl font-bold text-gray-800 text-center mb-12">FAQs</h2>
       <div className="grid md:grid-cols-2 gap-6">
         {faqs.map((f, i) => (
