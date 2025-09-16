@@ -38,7 +38,7 @@ export default function Contact() {
       </div>
           <div className="flex  justify-center gap-4 mt-2 mb-4 flex-wrap">
           <a
-            href="https://wa.me/"
+            href="https://forms.gle/EtTAS35o745Pm38L8"
             className="px-6 sm:px-8 py-3 sm:py-4 font-semibold rounded-full bg-white text-whit hover:bg-white htext-teal-800 border-1 border-teal-800 transition"
           >
             

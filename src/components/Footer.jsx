@@ -23,7 +23,7 @@ export default function Footer() {
         <div>
           <h4 className="font-bold mb-2">Connect</h4>
           <a href="https://wa.me/">WhatsApp</a><br />
-          <a href="mailto:hello@lukeai.com">Instagram</a> <br />
+          <a href="https://www.instagram.com/luke_coutinho?igsh=MWM2bTM2bWc3MW9tYQ==">Instagram</a> <br />
           <a href="mailto:hello@lukeai.com">Email</a>
         </div>
       </div>

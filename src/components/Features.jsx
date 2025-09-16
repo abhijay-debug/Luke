@@ -19,7 +19,7 @@ export default function Features() {
           {/* Feature 1 */}
           <div className="bg-white w-full sm:w-[45%] lg:w-[30%] flex flex-col items-center rounded-2xl shadow-md hover:shadow-xl transition p-6 text-left">
             <img
-              src="/images/two.jpg"
+              src="/images/snap.jpg"
               alt="Snap-a-Meal"
               className="w-full h-40 object-cover rounded-xl mb-4"
             />
@@ -37,7 +37,7 @@ export default function Features() {
           {/* Feature 2 */}
           <div className="bg-white w-full sm:w-[45%] lg:w-[30%] flex flex-col items-center rounded-2xl shadow-md hover:shadow-xl transition p-6 text-left">
             <img
-              src="/images/three.jpg"
+              src="/images/fridge.jpg"
               alt="Fridge Scan"
               className="w-full h-40 object-cover rounded-xl mb-4"
             />
@@ -73,7 +73,7 @@ export default function Features() {
           {/* Feature 4 */}
           <div className="bg-white w-full sm:w-[45%] lg:w-[30%] flex flex-col items-center rounded-2xl shadow-md hover:shadow-xl transition p-6 text-left">
             <img
-              src="/images/five.jpg"
+              src="/images/snapwork.jpg"
               alt="Workout cues"
               className="w-full h-40 object-cover rounded-xl mb-4"
             />
@@ -91,7 +91,7 @@ export default function Features() {
           {/* Feature 5 */}
           <div className="bg-white w-full sm:w-[45%] lg:w-[30%] flex flex-col items-center rounded-2xl shadow-md hover:shadow-xl transition p-6 text-left">
             <img
-              src="/images/six.jpg"
+              src="/images/voicew.jpg"
               alt="Q&A"
               className="w-full h-40 object-cover rounded-xl mb-4"
             />
